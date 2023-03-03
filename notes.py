@@ -51,6 +51,25 @@
 #nostarch_url = nostarch_url.removeprefix("https://")
 #print(nostarch_url)
 
+### syntax error, cannot use same quotes for string and grammer '' vs ""
+#message = 'one of python's strengths is it's cool and whatnot'
+#print(message)
 
 
+### Numbers
+#2 + 2 add
+#3 - 2 subtract
+#2 * 2 multiply
+#3 / 2 divide
+#3 ** 2 exponents
+#(2 + 3) * 4 BEDMAS
+#0.1 + 0.1 floats
 
+### make numbers more readable with _
+#universe_age = 14_000_000_000
+
+### multiple variable assignment
+#x, y, z = 0, 0, 0
+
+### Constant variable with uppercase
+#MAX_CONNECTIONS = 5000
