@@ -5,6 +5,7 @@
 ##### https://ehmatthes.github.io/pcc_3e/
 ##### https://github.com/ehmatthes/pcc_3e/
 
+#import this
 
 ######################
 ##### CHAPTER 01 #####
@@ -73,3 +74,41 @@
 
 ### Constant variable with uppercase
 #MAX_CONNECTIONS = 5000
+
+######################
+##### CHAPTER 03 #####
+######################
+
+### lists
+#names = ['bob', 'alice', 'john']
+#print(names[0].title())
+
+### prints the last item in the list
+#print(names[-1])
+
+### change a list item
+#names[0] = Steve
+
+### adding to the list
+#names.append('billy')
+
+### insert an item into a list
+#names.insert(0, 'jimmy')
+
+### remove an item from a list
+#del namess[0]
+
+### removing an item from a list and storing it as a variable, pop() for last item
+#removed_name = names.pop(0)
+
+### removing a specific item value
+#names.remove('jimmy')
+
+
+
+
+
+
+
+
+
