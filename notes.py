@@ -96,7 +96,7 @@
 #names.insert(0, 'jimmy')
 
 ### remove an item from a list
-#del namess[0]
+#del names[0]
 
 ### removing an item from a list and storing it as a variable, pop() for last item
 #removed_name = names.pop(0)
@@ -104,7 +104,12 @@
 ### removing a specific item value
 #names.remove('jimmy')
 
+### sorting
+#list.sort()
+#sorted(list)
 
+### length
+#len(list)
 
 
 

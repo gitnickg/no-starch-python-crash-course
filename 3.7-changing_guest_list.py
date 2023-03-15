@@ -10,6 +10,7 @@ print(f"{guest_list[1]} is invited")
 print(f"{guest_list[2]} is invited")
 print(f"{guest_list[3]} is invited")
 print(f"{guest_list[4]} is invited")
+print(len(guest_list))
 
 print("there are more spots available")
 
@@ -25,12 +26,13 @@ print(f"{guest_list[4]} is invited")
 print(f"{guest_list[5]} is invited")
 print(f"{guest_list[6]} is invited")
 print(f"{guest_list[7]} is invited")
+print(len(guest_list))
 
 removed_name_1 = guest_list.pop(0)
 removed_name_2 = guest_list.pop(1)
 removed_name_3 = guest_list.pop(2)
 removed_name_4 = guest_list.pop(3)
-#removed_name_5 = guest_list.pop(5)
+#removed_name_5 = guest_list.pop(4)
 
 print("there are only two tables now")
 print(f'{removed_name_1} is off the list')
@@ -38,7 +40,7 @@ print(f'{removed_name_2} is off the list')
 print(f'{removed_name_3} is off the list')
 print(f'{removed_name_4} is off the list')
 #print(f'{removed_name_5} is off the list')
-
+print(len(guest_list))
 
 print(f"{guest_list[0]} is invited")
 print(f"{guest_list[1]} is invited")
@@ -47,3 +49,4 @@ del guest_list[0]
 del guest_list[1]
 
 print(guest_list)
+print(len(guest_list))
